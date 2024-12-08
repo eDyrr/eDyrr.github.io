@@ -12,14 +12,9 @@
         /* General Styling */
         body {
             margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            font-family: Arial, sans-serif;
+            padding: 20px;
             line-height: 1.6;
+            text-align: center; /* Center the entire page content by default */
         }
 
         /* Navigation Bar */
@@ -39,28 +34,27 @@
         }
 
         /* Main Heading */
-        h1 {
+        h2 {
             font-size: 32px;
             color: #222;
-            text-align: center;
             margin: 10px 0 20px;
         }
 
         /* Image Styling */
         img {
             display: block;
-            width: 100%;
-            max-width: 800px;
+            width: 100%; /* Make the image the same width as the text */
+            max-width: 800px; /* Limit the maximum width to the same as the text */
             height: auto;
-            margin: 20px auto;
+            margin: 0 auto 20px; /* Center the image and add spacing below */
         }
 
         /* Paragraph Styling */
         p {
             max-width: 800px;
+            margin: 0 auto 20px;
             text-align: justify;
             font-size: 18px;
-            margin-bottom: 20px;
         }
 
         /* Anchor links inside paragraphs */
@@ -72,22 +66,19 @@
             text-decoration: underline;
         }
 
+        /* Left-Aligned Bullet Points */
+        ul {
+            text-align: left; /* Align bullet points to the left */
+            margin: 0 auto; /* Center the list within the page */
+            max-width: 800px; /* Keep consistent width */
+        }
+
         /* Footer Styling */
         footer {
             margin-top: 30px;
             text-align: center;
             font-size: 14px;
             color: #666;
-        }
-
-        /* Unordered List Styling */
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 5px;
         }
     </style>
 </head>
@@ -100,7 +91,7 @@
     </nav>
 
     <!-- Main Heading -->
-    <h1>Welcome to Idir Ouldkhaoua's Homepage!</h1>
+    <h2>Welcome to Idir Ouldkhaoua's Homepage!</h2>
 
     <!-- Profile Image -->
     <img src="pfp.webp" alt="Idir Ouldkhaoua's profile picture">
@@ -124,21 +115,18 @@
         I also plan to add an IPS 1080p display, a backlit keyboard, a t540 touchpad, a new macbook 2013 speakers replacement, and a 9-cell battery.
     </p>
 
-    <h3>
-        Technologies I worked with:
-    </h3>
-    <p>
-        <ul>
-            <li>Golang</li>
-            <li>C++</li>
-            <li>HTMX</li>
-            <li>VueJS</li>
-            <li>Spring boot</li>
-            <li>MySQL</li>
-            <li>Redis</li>
-        </ul>
-    </p>
-
+    <!-- Technologies List -->
+    <h2>Technologies I Worked With:</h2>
+    <ul>
+        <li>Golang</li>
+        <li>C++</li>
+        <li>HTMX</li>
+        <li>VueJS</li>
+        <li>Spring Boot</li>
+        <li>MySQL</li>
+        <li>Redis</li>
+    </ul>
+    
     <!-- Footer -->
     <footer>
         &copy; 2024 Idir Ouldkhaoua. All rights reserved.
