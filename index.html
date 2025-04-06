@@ -80,6 +80,30 @@
             font-size: 14px;
             color: #666;
         }
+
+        .right-side {
+            position: absolute;
+            right: 10px;
+            top: 120px;
+        }
+        .right-side > img {
+            width: 50%;
+        }
+
+        .left-side {
+            position: absolute;
+            left: 0px;
+            top: 100px;
+            width: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0;
+        }
+        .left-side > img {
+            width: 40%;
+        }
     </style>
 </head>
 <body>
@@ -93,8 +117,18 @@
     <!-- Main Heading -->
     <h2>Welcome to Idir Ouldkhaoua's Homepage!</h2>
 
+    <div class="left-side">
+        <img src="intel.png">
+        <img src="amd.png">
+        <img src="linux.png">
+    </div>
+
     <!-- Profile Image -->
     <img src="pfp.webp" alt="Idir Ouldkhaoua's profile picture">
+
+    <div class="right-side">
+        <img src="thinkpad.png">
+    </div>
 
     <!-- Introduction -->
     <p>
@@ -108,10 +142,16 @@
         MySQL and a stack of other technologies.
     </p>
 
+    <img 
+  src="https://ghchart.rshah.org/eDyrr" 
+  alt="Idir's GitHub Contributions" 
+  style="max-width: 50%;"
+>
+
     <!-- Personal Interests -->
     <p>
         Beyond coding, I enjoy building computers, tinkering with Ubuntu, pc hardware and my ThinkPad T440p. So far, I’ve upgraded the RAM to 16GB, 
-        but I’m planning to upgrade the CPU to an Intel Core i7-4900MQ—or perhaps go all the way with a 4940MX. 
+        and the CPU to an intel i7 4800mq. 
         I also plan to add an IPS 1080p display, a backlit keyboard, a t540 touchpad, a new macbook 2013 speakers replacement, and a 9-cell battery.
     </p>
 
